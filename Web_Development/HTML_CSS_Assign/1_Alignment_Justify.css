@@ -1,0 +1,30 @@
+#left{
+    font-style: initial;
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    border: 2px solid rgb(245, 127, 0);
+    background-color: rgb(252, 101, 0);
+    text-shadow: 3cm black;
+}
+#right{
+    color: rgb(116, 57, 57);
+    text-align: right;
+    font-size: x-large;
+    text-shadow: 100%  rgb(245, 127, 0);
+    border: 2px solid rgb(173, 143, 143);
+    background-color: rgb(207, 220, 231);
+}
+#center{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: x-large;
+    border: 2px solid rgb(37, 155, 4);
+    background-color: green;
+    text-shadow: 100px solid rgb(0, 0, 0);
+}
+#head{
+    border: 2px solid chartreuse;
+    width: 7.5cm;
+}

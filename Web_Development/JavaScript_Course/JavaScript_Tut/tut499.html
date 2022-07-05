@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript | Strings and String Methods</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <div id="content"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nisi, quaerat corrupti quas, illum nobis
+            tempore sequi cumque laboriosam magni expedita earum? Similique corrupti nam magni reprehenderit quia vero,
+            reiciendis eius officiis doloremque ipsa?</p>
+    </div>
+            <div id="content2"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nisi, quaerat corrupti quas, illum nobis
+                tempore sequi cumque laboriosam magni expedita earum? Similique corrupti nam magni reprehenderit quia vero,
+                reiciendis eius officiis doloremque ipsa?</p>
+            </div>
+               Field : <input type="text" class="content3">
+
+    <script>
+        var name = "Neer";
+        var clas = 12;
+        var channel = 'Code with Neer';
+        var message = 'Neer is a good boy';
+
+        console.log(name);
+        console.log(clas);
+        console.log(channel);
+        console.log(message);
+
+        var temp = `${name} is a 'nice' person "and" he has a channel called ${channel}`;
+        // `` <- backticks
+        // $ and `` used for adding an value of string with another string / etc.
+        var temmpp = name + " is a 'nice' person and he has a channel called " + channel;
+
+        console.log(temp);
+        console.log(temmpp);
+        var result = `${temp}`;
+
+        // console.log(string + name + message);
+        // console.log(temp);
+        var len = name.length;
+        console.log(`Length of name is ${len}`)
+        console.log("Length of name is " + len);
+
+        console.log("Hello \\nworld\nHarry\tand");
+        console.log("Hello\nNeer");
+
+        var y = new String("this"); // new used for creating an object
+        console.log(y);
+        document.getElementById('content').innerHTML = '<h3>this is an h3 heading</h3>'
+        let setToTag = document.getElementById('content2');
+         setToTag.innerHTML = '<h3>this is an h3 heading</h3>';
+         // getting an id and returning him an string as html.
+         // for all tags we use .innerHTML
+         // for all fields we use .value like this
+
+         var val = document.getElementsByClassName("content3");
+         // here document is an predifined object for an predefined....???
+         val.value = "pore sequi cumque laboriosam magni expedita earum? Similique corrupti n";
+    </script>
+</body>
+
+</html>

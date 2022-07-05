@@ -1,0 +1,105 @@
+* /*Universal selector*/
+{
+  margin:0;
+}
+#container
+{
+  background:red;
+  height:1200px;
+  width:84%;
+  margin:0 8% 0 8%;
+}
+#header
+{
+   height:200px;
+  /* background:yellow; */
+   background:url('Header.png');
+   width:100%;
+   background-repeat:no-repeat;
+   background-size:cover;
+}
+#menu
+{
+   height:80px;
+   background:yellowgreen;
+   width:100%;
+}
+#content
+{
+   height:720px;
+   background:aqua;
+   width:100%;
+}
+#footer
+{
+   height:200px;
+   background:yellow;
+   width:100%;
+}
+#menuLeft
+{
+  height:100%;
+  width:30%;
+ /* background:pink; */
+  float:left;
+}
+#menuRight
+{
+  height:100%;
+  width:70%;
+  /* background:black; */
+  float:right;
+}
+ul
+{
+  list-style:none;
+}
+#menuRight ul li a
+{
+   text-decoration:none;
+   font-size:30px;
+   color:red;
+}
+#menuRight ul li
+{
+   display:inline-block;
+   margin:10px;
+}
+#contentUp
+{
+   height:15%;
+   width:100%;
+   background:pink;
+}
+#contentUpLeft
+{
+  height:100%;
+  width:60%;
+  float:left; 
+}
+#contentUpRight
+{
+  height:100%;
+  width:40%;
+  float:right; 
+}
+#contentDown
+{
+   height:85%;
+   width:100%;
+   background:green;
+}
+#contentDownLeft
+{
+   height:100%;
+   width:30%;
+   background:white;
+   float:left;
+}
+#contentDownRight
+{
+   height:100%;
+   width:70%;
+   background:aqua;
+   float:right;
+}

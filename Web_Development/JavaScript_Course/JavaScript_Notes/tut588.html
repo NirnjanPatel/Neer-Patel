@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Timeout</h3>
+<div id="Time">
+    Text after Timer...
+</div>
+
+    <script> 
+    let count = 0;
+
+function time(name,greet)
+{
+    count += 1;
+    console.log("Hello " + name + " " + greet);
+ document.getElementById('Time').innerHTML = count;
+}
+setInterval(time("NEer", "dfgf"), 1000,);
+
+    </script>
+</body>
+</html>

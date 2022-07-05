@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulating DOM</title>
+    <style>
+        body{
+            background-image:url("https://media.istockphoto.com/photos/gym-background-fitness-weight-equipment-on-empty-dark-floor-picture-id1213615970");
+        }
+        #main
+        {
+            background: #007bff;
+            color: white;
+            font-weight: 600;
+            display: flex;
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            align-items: center;
+            text-align: center;
+            
+            border-radius: 7px;
+        }
+        li{
+            display: flex;
+            align-items: flex-start;    
+        }
+    </style>
+</head>
+<body>
+    <h2>Document Object Model</h2>
+
+    <div id="main" class="container">
+        <ul id="nav" class="container">
+            <li>Home</li>
+            <li>About Us</li> 
+            <li>Contact</li>
+            <li>Courses</li>
+        </ul>
+    </div>
+<script>
+
+let main = document.getElementById('main');
+console.log(main);
+
+let main1 = document.getElementById('nav'); // // Targets only id's
+console.log(main1);
+
+let containers = document.getElementsByClassName('container'); // Targets only classes
+console.log(containers);
+
+let sel = document.querySelector('#nav'); // Targets id and classes
+console.log("Selector returns", sel);
+
+let sel2 = document.querySelector('#nav>li'); // Targets tags of id's and classes
+console.log("Selector returns", sel2);
+
+let sel3 = document.querySelectorAll('#nav>li');
+console.log("Selector returns", sel3);
+
+
+</script>
+
+</body>
+</html>

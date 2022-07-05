@@ -1,0 +1,49 @@
+<!-- Tut_8 - Option_Selection_Tag-->
+<!DOCTYPE hmtl>
+<html>
+
+<head>
+    <h1>Option Selection Tag Tutorial...!!!!</h1>
+    <title>Option selection tag</title>
+</head>
+
+<body>
+    <div>
+        <label for="Car">Select Your Car :</label><br>
+        <!-- The <label> tag is used to create labels for items in a user interface. Used within <input> tags on a form, the <label> tag is additionally useful because it extends the clickable area of control elements, like buttons -->
+        <!-- <p>Select Your Car : </p> -->
+        <!--Also can be used as lable tag -->
+        <select name="myCar" id="car">
+            <option selected="Select an Option" value="none" selected disabled hidden>Select an Option</option>
+            <!-- Here seleted is used to set a default option -->
+            <!-- None used to set by default and it will be show at first because it is at first place on our code   -->
+            <!--The <select> element is used to create a drop-down list-->
+            <!-- Here for - For="Car" we creats an id id="Car" as same as for="Car" to use it anywhere as id of this  -->
+            <option value="seirra">TATA Seirra</option>
+            <!-- Option tag is used to create user defined optins -->
+            <option value="altroz"> TATA Altroz</option>
+            <option value="Honda"> Honda City</option>
+            <!-- We can create a by default option selection with using    -->
+            <option value="dezire" SUZUKI Dezire>SUZUKI Swift</option>
+            <!--                   ^ SUZUKI Dezire will be ignored by server-->
+        </select><br><br>
+        <button action="backend.php">Submit Selection</button><br><br>
+        <!-- We will mostly avoid this <br>v Tag rather than we will use <div></div> Tag-->
+        <!-- Re-select <input href="" name=""> -->
+        <a href="http://127.0.0.1:5500/WebDev_Course_CWH/tut8.html" type="Re-select">Re-select Car</a>
+        <!-- <b>
+            How to set the default
+            value for an HTML <select> element?
+        </b> -->
+    </div>
+    <div>
+        <!-- <option value="TATATATA">SElect</option>
+        <option value="TATATATA">SElect</option> -->
+        <!--if we use directly option without using an select tag than it will not be used as selection tag-->
+
+        <!-- The option tag contains the value that would be used when selected. The default value of the select element can be set by using the 'selected' attribute on the required option. This is a boolean attribute. The option that is having the 'selected' attribute will be displayed by default on the dropdown list. -->
+    </div>
+
+</body>
+
+</html>

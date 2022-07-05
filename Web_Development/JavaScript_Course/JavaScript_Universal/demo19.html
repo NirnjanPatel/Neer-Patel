@@ -1,0 +1,32 @@
+<html>
+ <head>
+  <title></title>
+  <script src="./valid.js"></script>
+ </head>
+ <body onload="init()">
+ <center>
+   <input type="text" id="name" 
+   placeholder="Enter Name" onblur="valid()">
+   <span id="err1"></span>
+   <br><br>
+   <input type="text" id="username" 
+   placeholder="Enter username" onblur="valid()">
+   <span id="err2"></span>
+   <br><br>
+   <input type="text" id="pass" 
+   placeholder="Enter Password" onkeyup="valid()">
+   <span id="err3"></span>
+   <br><br>
+   <input type="text" id="cpass" onkeyup="checkpass()"
+   placeholder="Re-Enter Password">
+   <span id="err4"></span>
+   <br><br>
+   <input type="text" id="mobile" onkeyup="valid()"
+   placeholder="Enter Mobile" maxlength="10">
+   <span id="err5"></span>
+   <br><br>
+   <br><br>
+   <input type="button" value="Save" onclick="valid()"> 
+  </center>
+ </body>
+</html>

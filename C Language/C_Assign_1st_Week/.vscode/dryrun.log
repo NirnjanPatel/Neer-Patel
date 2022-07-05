@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/administrator/Desktop/NeerPatel/C_Assign_1st_Week'
+make: Leaving directory '/home/administrator/Desktop/NeerPatel/C_Assign_1st_Week'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

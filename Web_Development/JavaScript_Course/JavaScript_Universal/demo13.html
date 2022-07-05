@@ -1,0 +1,22 @@
+<html>
+ <head>
+  <title></title>
+  <script>
+    function show()
+    {
+       var obj = document.getElementById('res');
+       var obj1 = document.getElementById('res1');
+               
+       var data = obj.innerHTML;
+       var data1 = obj1.value;
+       alert(data+"  :  :  "+data1); 
+    }
+  </script>
+ </head>
+ <body>
+   
+   <input type="text" id="res1" value="15">
+   <h1 id="res">Hello Students.</h1>
+   <button onclick="show()">Click Here !</button>
+ </body>
+</html>

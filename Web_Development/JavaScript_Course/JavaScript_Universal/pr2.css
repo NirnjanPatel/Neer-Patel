@@ -1,0 +1,42 @@
+.container {
+    background: rgb(230, 238, 255);
+    width: 528px;
+    height: auto;
+    margin: 33% 0;
+
+}
+
+h2 {
+    transition: all 1s linear;
+    /* transform: rotateZ(45deg); */
+    background: #007bff;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.box {
+    border-radius: 5px;
+    height: 28px;
+    align-items: center;
+}
+
+.input {
+    height: 25px;
+}
+
+.btn {
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 15px;
+    background: #007bff;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.btn:hover {
+    background-color: blue;
+    cursor: pointer;
+}

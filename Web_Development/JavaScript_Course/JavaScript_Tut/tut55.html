@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForEach Function </title>
+</head>
+
+<body>
+    <h3>ForEach Function</h3>
+    <script>
+        // console.log("ForEach Function");
+        // let Friends = ["Sachin", "Neer", "Elon", "Warren"]
+        // console.log(Friends.length)
+        // for (let index = 0; index < Friends.length; index++) {
+        //     console.log(Friends[index])
+        // }
+        // Friends.forEach(function f(element) {
+        //     console.log("Hello " + element)
+        // })
+        // let Universal = ["Musk", "Buffet", "Gates"]
+        // Universal.forEach(function std(students) {
+        //     console.log(Friends + students)
+        // })
+        // // for of loop0---lkl.
+        // for (students of Universal) {
+        //     console.log("Hello Friends", + students + "To modern JavaScript")
+        // }
+
+        let Univers = ["Musk", "Buffet", "Gates"]
+        Univers.forEach(function std(students) {
+            console.log("Hello " + students)
+        })
+        // for/of function
+        for (students of Univers) {
+            console.log("Hello " + students)
+        }
+
+        // iterate an object using for/in Loop
+
+        let employee = {
+            name: "Warren Buffet",
+            salary: 200000000000,
+            company: "Pata Nahi"
+        }
+        // for/in
+        for (key in employee) {
+            console.log(`The ${key} of employee is ${employee[key]} `);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            border: 3px solid black;
+            border-radius: 15px;
+            background-color: rgb(35, 86, 253);
+            color: rgb(254, 254, 254);
+            font-weight: bold;
+        }
+        button:hover{
+            background-color: rgb(0, 4, 255);
+           color: rgb(250, 254, 5);
+        }
+        button:active{
+            color: whitesmoke;
+            background-color: black;
+        }
+        button:visited{
+            color: yellow;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h3>Events And Listings to Events</h3>
+<!-- click any button and do some action -->
+    <div class="container">
+        <h1>THis is heading</h1>
+<p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Re√prehenderit hic voluptate libero fugiat eveniet, quaerat inventore consequuntur blanditiis perferendis, et, ut placeat unde voluptatibus recusandae nisi alias doloremque ea nemo maxime consequatur. Saepe temporibus, similique pariatur mollitia itaque ullam quae voluptatem vel labore tempore sed necessitatibus vero. Ab aut, assumenda praesentium culpa ratione quibusdam qui quia veritatis, omnis, velit tempora! Animi velit obcaecati temporibus sed consequatur dolores laudantium, vel harum alias voluptas nihil nemo suscipit quae voluptatem, facere ipsam quo perspiciatis quisquam quidem, adipisci illum quasi explicabo? Molestias repudiandae ullam modi neque illo, voluptatem impedit totam quibusdam earum architecto temporibus, magni, veritatis aut? Ipsum temporibus suscipit odio. Sunt quidem culpa impedit repudiandae repellat veritatis temporibus modi numquam cum vero, dolor ex eligendi porro aliquid nesciunt. Nostrum magni incidunt, doloribus fuga illo neque officiis vel voluptates minus repellendus cum. Assumenda, aut. Explicabo, hic asperiores repellat provident enim libero? Autem ut perferendis optio voluptates. Cumque quidem dolorum quia placeat laborum facilis ipsam atque dolore suscipit autem quibusdam nostrum ea molestiae tenetur odio, enim fugit. Ex deserunt placeat quae et consequatur fugit error adipisci repellendus facilis, qui tenetur expedita sunt excepturi debitis quidem in at, facere itaque suscipit soluta nobis harum. Quam voluptas, quis facere vero quo placeat repellendus, consequatur asperiores doloremque praesentium ut culpa ducimus sed animi sequi cumque consequuntur soluta nihil molestias officiis?</p>
+    </div>
+    <button id="btn" onclick="toggleHide()">Show/Hide</button>
+        <script>
+            console.log('Events And Listings to Events');
+function toggleHide()
+{
+    let btn = document.getElementById('btn') 
+    let para = document.getElementById('para') 
+
+if(para.style.display!="none")
+{
+    para.style.display = "none";
+}
+else
+{
+        para.style.display = "block";
+}
+}
+        </script>
+
+</body>
+</html>
+

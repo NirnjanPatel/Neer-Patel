@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alight Fitness Gym</title>
+</head>
+<link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Charis+SIL&family=Joan&family=Nunito+Sans:wght@300&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<style>
+    /* CSS Reset*/
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url("barbell-g31685145b_1920.jpg");
+        height: 1200px;
+    }
+
+    .left {
+        /* border: 3px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 30px;
+        top: 20px;
+
+    }
+
+    .gymname {
+        font-size: 10px;
+        color: white;
+        text-shadow: 2px 2px black;
+        text-align: start;
+    }
+
+    .left img {
+        width: 50px;
+        filter: invert(100%);
+    }
+
+    .midd {
+        font-family: 'Baloo Bhai 2', cursive;
+        border: 3px solid rgb(65, 65, 65);
+        display: block;
+        width: 50%;
+        margin: 0px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        /* border: 3px solid yellow; */
+        display: inline-block;
+    }
+
+    .navbar,
+    li,
+    a {
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 0px 11.8px;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar,
+    li,
+    a:hover,
+    .navbar,
+    li,
+    a:active {
+        color: rgb(248, 248, 0);
+        text-decoration: underline;
+    }
+
+    .navbar {
+        font-size: 15px;
+        display: inline-block;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px 9px;
+        color: white;
+        text-shadow: 3px solid white;
+        background-color: rgb(96, 96, 96);
+        padding: 4px 14px;
+        border-color: 3px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(0, 0, 0);
+    }
+</style>
+
+<body>
+
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="./images/Gym_bg.jpg" alt="logo">
+            <div class="gymname"><b>Alight GYM</b></div>
+        </div><br>
+        <!-- mid box for nav bar -->
+        <div class="midd">
+            <ul class="navbar">
+                <li> <a href="#"><b>HOME</b></a></li>
+                <li><a href="#"><b>ABOUT</b></a></li>
+                <li><a href="#"><b>CLASSES</b></a></li>
+                <li><a href="#"><b>EVENTS</b></a></li>
+                <li><a href="#"><b>BLOG</b></a></li>
+                <li><a href="#"><b>CONTACT</b></a></li>
+            </ul>
+            <!-- mid box for nav ba -->
+        </div><br>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn"><b>CONTACT US</b></button>
+            <button class="btn"><b>EMAIL US</b></button>
+        </div><br>
+    </header>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+*{
+box-sizing: border-box;
+}
+
+.container{
+font-family: 'Ubuntu Condensed', sans-serif;
+width: 900px;
+border: 3px solid purple;
+background-color: rgb(201, 211, 220);
+}
+
+.item{
+border: 2px solid grey;
+padding: 0px;
+margin: 0 ;
+background-color: aliceblue;
+}
+
+#fruits{
+    /* clear:bottom; */
+    float: right;
+    width: 50%;
+}
+
+#computer{
+clear: both;
+float: right;
+/* float: left; */
+width: 50%;
+}
+
+#stationary{
+float: top;
+clear:both;
+clear:left;  /* clear:right; or clear: both;*/
+/* clear:right; not allowed on left */
+width: 100%;
+}
+
+p,h1{
+    /* text-align: left; */
+    text-align: center;
+    /* text-align: justify;for set a paragraph fromline start to line end */
+}
+
+    </style>
+</head>
+<body>
+<div class="container" >
+        <h1>Alignment in CSS....!! </h1>
+    <div id="fruits" class="item">
+        <h3>Fruits</h3>
+        <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate numquam ad quia exercitationem amet ex placeat vero totam, vitae hic tenetur deserunt maxime, praesentium corporis qui harum aliquid blanditiis dolor officiis? Quia, eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem minima, sit adipisci hic quos sint itaque laudantium eaque repudiaercitationem amet ex placeat vero totam, vitae hic tenetur deserunt maxime, praesentium corporis qui harum aliquid blanditiis dolor officiis? Quia, eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem minima, sit adipisci hic quos sint itaque laudantium eaque repndae minus quam quo nobis.</p>
+</div>
+
+<div id="computer" class="item">
+    <h3>Computer</h3>
+    <p id="computerpara" class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consectetur ut, quae animi dignissimos eum illo doloremque velit eaque natus vitae, iusto, libero repellat. Aspernatur sint perspiciatis dolores, impedit corrupti obcaecati corporis quisquam?amet consectetur adipisicing elit. Rem minima, sit adipisci hic quos sint itaque laudantium eaque repudiandae minus quam
+        quo nobis
+    </p>
+</div>
+
+<div id="stationary" class="item">
+<h3>Stationary</h3>
+<p  id="stationarypara" class="para" >
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta blanditiis consequuntur tempora iure et aut aperiam, incidunt perferendis est quidem porro sunt modi eos dolorum soluta facere obcaecati minima. Optio dolor, minus culpa itaque totam, asperiores ratione nostrum, magni quam corporis molestias? Illo, veniam.
+</p>
+</div>
+
+<div id="glasses" class="item">
+    <h3>Glasses</h3>
+    <p id="glassespara" class="para">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta blanditiis consequuntur tempora iure et aut
+        aperiam, incidunt perferendis est quidem porro sunt modi eos dolorum soluta facere obcaecati minima. Optio
+        dolor, minus culpa iest quidem porro sunt modi eos dolorum soluta facere obcaecati minima. Optio dolor, minus
+        culpa itaque totam, asperiores
+        ratione nostrumtaque totam, asperiores ratione nostrum, magni quam corporis molestias? Illo, veniam.
+    </p>
+</div>
+</div>
+</div>
+
+</body>
+</html>

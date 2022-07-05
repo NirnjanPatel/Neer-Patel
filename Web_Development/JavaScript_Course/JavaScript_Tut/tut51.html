@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope and Conditionals</title>
+</head>
+
+<body>
+    <h3>Scope and Conditionals</h3>
+    <script>
+        let a = "Neer"; // Global variable
+        {
+            let a = "Patel";
+            console.log(a)
+        }
+        console.log(a)
+        
+        // var can be updated and can be redefined
+        var name;
+        console.log(name)
+        name = 'Neer'
+        console.log(name)
+        name = 'Patel'
+        console.log(name)
+
+        // let can be updated and can't be redefined
+        let name1;
+        console.log(name1)
+        name1 = 'Niranjan';
+        console.log(name1)
+        name1 = 'Patel';
+        console.log(name1)
+
+
+        // var name='';  can be done
+        // let name1 // can be done
+        // let can't be updated and can't be redefined
+        const name2 = 'Nirnjan';
+        console.log("\n", name2)
+        // name2 = 'Patel';
+        console.log(name1)
+        // name1 = 'Patel';
+        // console.log(name1)
+
+    </script>
+</body>
+
+</html>

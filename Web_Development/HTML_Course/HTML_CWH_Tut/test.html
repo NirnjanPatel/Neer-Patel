@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to loop through a block of code five times.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+ 
+<script>
+function myFunction() {
+  var x = "", i;
+  for (i=1; i<=10; i++) {
+    x = x + "The number is " + i + "<br>";
+  }
+  //  window.open('http://google.com','_blank')
+
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript SetTImeOut and clearTimeOut</title>
+</head>
+
+<body>
+    <h3>JavaScript SetTImeOut and clearTimeOut</h3> 
+    <div class="container">
+        This is a container
+    </div>
+    <span id="time">Digital Timer </span>
+    <script>
+        console.log(" SetTImeOut and clearTimeOut");
+       function displayTime() 
+       {
+           time = new Date();
+           console.log(time); 
+           document.getElementById('time').innerHTML = time;
+       }
+       
+       setInterval(displayTime,1000)
+
+    </script>
+</body>
+
+</html>

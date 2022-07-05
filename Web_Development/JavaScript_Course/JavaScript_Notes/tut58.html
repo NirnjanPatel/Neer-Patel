@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript SetTImeOut and clearTimeOut</title>
+</head>
+<body>
+    <h3>JavaScript SetTImeOut and clearTimeOut</h3>
+<div id="container">
+    This is a container
+</div>
+    <script>
+        // console.log(" SetTImeOut and clearTimeOut");
+    //     function greet(name, byeText)
+    //     {
+    //     let tesstt = name + byeText
+    //     console.log("Hello Good Morning...!!" + tesstt );
+    //         return tesstt;
+    //     }
+    //     // setTimeout -- allow us to run the function once after interval of the time
+    //     setTimeout(greet,2000);
+        
+    //   setInterval(greet,1000, "Niranjan", " Take Care Yourself");
+
+    //   document.getElementById('container').innerHTML = greet("Niranjan", " Take Care Yourself");
+      
+      function text(message,name) 
+{
+    const msg = message + " " + name; 
+    console.log(msg);
+    
+    return msg;
+}
+console.log(text("Good Morning","Harry"));
+
+document.getElementById('container').innerHTML = text("Good Morning", "Harry");
+
+    </script>
+</body>
+</html>

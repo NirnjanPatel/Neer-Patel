@@ -1,0 +1,26 @@
+<html>
+ <head>
+  <title></title>
+  <style>
+    div
+    {
+       height:300px;
+       width:400px;
+       background:black;
+       color:white;
+    }
+  </style>
+  <script>
+    function show(data)
+    {
+      var res = document.getElementById('res');
+      res.innerHTML = data;  
+    }
+  </script>
+ </head>
+ <body>
+   <input type="text" placeholder="Enter Data" 
+   onkeyup="show(this.value)">
+   <div id="res"></div>
+ </body>
+</html>

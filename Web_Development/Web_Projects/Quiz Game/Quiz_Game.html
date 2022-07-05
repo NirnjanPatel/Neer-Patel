@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game For Radhika </title>
+    <link rel="stylesheet" href="./Quiz_Game.css">
+    <!-- FontAwesome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Start Quiz Button-->
+    <div class="start_btn">
+        <button>Start Game</button>
+    </div><br>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Some Rules Regarding this Game</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. Radhika have <span> 30 seconds </span> for each question.</div>
+            <div class="info">2. Radhika will not take anybody's help.</div>
+            <div class="info">3. Radhika must be enjoy this Game.</div>
+            <div class="info">4. Result will be declared after answer all question.</div>
+            <div class="info">5. Answer all the questions. </div>
+
+        </div>
+        <div class="buttons">
+            <button class="quit">Go Back</button>
+            <button class="restart">Start Game</button>
+        </div>
+    </div>
+
+    <!--Quiz Box-->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Fantastic..!! Quiz Game</div>
+            <div class="timer">
+                <div class="timer_text">Time Left</div>
+                <div class="timer_sec">30</div>
+            </div>
+        </header>
+
+        <section>
+            <div class="que_text">
+                <span>What is the spelling of number - <b>1</b></span>
+            </div>
+            <div class="option_list">
+                <div class="option">
+                    <span>1.&nbsp;&nbsp; OEN</span>
+                    <div class="icon tick "><i class="fas fa-check"></i></div>
+                </div>
+
+                <div class="option">
+                    <span>2.&nbsp;&nbsp; NEO</span>
+                    <div class="icon cross "><i class="fas"> &#x2717;</i></div>
+                </div>
+
+                <div class="option">
+                    <span>3.&nbsp;&nbsp; ONE</span>
+                </div>
+
+                <div class="option">
+                    <span>4.&nbsp;&nbsp; NOE</span>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Quiz Box Footer-->
+        <footer>
+            <div class="total_que">
+                <span>
+                    <p class="no">2&nbsp;</p>&nbsp;of<p class="no">5&nbsp;</p>Questions
+                </span>
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+
+    <!--Result Box-->
+    <div class="result_box">
+        <div class=icon">
+            <i class="fas fa-crown" style="font-size: 100px;color: #007bff; margin-top: 10px;;"></i>
+            <!-- <i class='fas fa-crown' style='font-size:48px;color:red'></i>  -->
+        </div>
+        <div class="complete_text">You've completed the Quiz
+        </div>
+        <div class="score_text">
+            <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and sorry, You got only <p>&nbsp;2&nbsp;</p>out
+                of<p>
+                    &nbsp;5</p></span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thanks...!!&nbsp;&nbsp;<p1>Radhika</p1>&nbsp;Visit
+                Again..!!</span>
+        </div>
+        <div class="buttons">
+            <button class="quit" onclick="">Quit Game</button>
+            <button class="restart">Replay Game</button>
+        </div>
+    </div>
+</body>
+
+</html>

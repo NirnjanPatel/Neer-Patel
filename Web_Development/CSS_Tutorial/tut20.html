@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+*container{ /* global declaration*/
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    background-color: #f4f4f4;
+    width:600px;
+    height:160px;
+    border: 5px solid #030aca;
+    border-radius: 1cm;
+    box-sizing: border-box;
+    height: auto;
+    width: 500px;
+    /* padding: 60px; */
+    /* padding-left:30px;
+    padding-right:30px;
+    padding-top:30px;
+    padding-bottom:30px; 
+    */
+    /* padding: 12px 34px 43px 55px ;padding : top right bottom left; */
+    padding:23px 45px ; /* y(top/bottom) x(left /right); */
+    margin: 31px 43px; /* y(top/bottom) x(left /right); */
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2020/09/01/21/03/sunset-5536777_960_720.jpg);
+    background-repeat: repeat-y;
+    height: auto;
+    width: auto;
+}
+h2{
+    color: rgb(0, 0, 0);
+    border: 4px solid black ;
+    width: 7cm;
+    height: 1cm;
+    background-color: #ffffff;
+    text-shadow :100ch solid black; /* Not Working */
+    margin: 12px bottom;
+}
+#first{
+    color: rgb(0, 6, 119);
+}
+#second{
+    color: rgb(2, 106, 23);
+}
+#third{
+    color: rgb(255, 0, 43);
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h2>This is 1st heading...!!</h2>
+    <p id="first">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aut ipsa assumenda velit, ut quaerat molestiae? Ducimus numquam optio quia non nulla beatae, assumenda necessitatibus asperiores laudantium consequatur debitis eum. Cumque, fuga ipsam.</p></div><br>
+
+    <div class="container">
+    <h2>This is 2nd heading...!!</h2>
+    <p id="second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aut ipsa assumenda velit, ut quaerat
+        molestiae? Ducimus numquam optio quia non nulla beatae, assumenda necessitatibus asperiores laudantium consequatur
+        debitis eum. Cumque, fuga ipsam.</p></div><br>
+
+        <div class="container">
+        <h2>This is 3rd heading...!!</h2>
+        <p id="third">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aut ipsa assumenda velit, ut quaerat
+        molestiae? Ducimus numquam optio quia non nulla beatae, assumenda necessitatibus asperiores laudantium consequatur
+        debitis eum. Cumque, fuga ipsam.</p></div><br>
+</body>
+</html>

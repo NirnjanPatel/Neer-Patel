@@ -1,0 +1,56 @@
+Datatypes : Datatype refers to type of data stored in variable , as JS is fully object oreinted hence variables are refrences & datatype indicate typeof data refered by refrence variable.
+
+Note :-
+
+-> JS is dynamically typed
+-> To handle each data prototypes are used (number , string......)
+
+--------------------------------------------------------
+
+Types of datatypes :-
+
+-> Primitive or Builtin datatypes  : Which have default support by language
+
+number , string , boolean
+
+-> Non primitive or User defined datatypes : Which will be implemented as per users requirement
+
+array , object , function 
+
+--------------------------------------------------------
+
+typeof : It is special operator in JS used to , get internally managed datatype
+
+syntax : 
+
+       datatype = typeof ref_var_name
+
+--------------------------------------------------------
+
+Typecasting : It is a mechanism to convert one type of data to another type 
+
+--------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+      h3 {
+          font-weight: bold;
+          font-size: xx-large;
+          border-bottom: 3px solid black;
+          width: auto;
+          height: auto;
+
+      }
+
+      .container {
+          /* background-color: rgb(255, 255, 255);s */
+          border: 5px solid rgb(0, 0, 0);
+          color: black;
+          font-size: large;
+          text-align: justify;
+          padding: 12px;
+          margin: 12px auto;
+          width: auto;
+          font-family: 'Cedarville Cursive', cursive;
+          font-size: large;
+          font-weight: bold;
+      }
+
+      a:visited {
+          color: brown;
+          background-color: yellow;
+      }
+
+      a:active {
+          color: rgb(255, 25, 25);
+      }
+
+      p {
+          font-family: 'Times New Roman', Times, serif;
+      }
+
+      /*text decoration property*/
+      a:hover {
+          color: rgb(27, 0, 230);
+          background-color: rgb(140, 241, 241);
+          border: 1px solid black;
+
+      }
+
+      button:hover {
+          color: rgb(27, 0, 230);
+          background-color: rgb(140, 241, 241);
+          border: 1px solid black;
+
+      }
+
+      a {
+          text-decoration: none;
+
+      }
+
+      .btn {
+          color: rgb(101, 52, 214);
+          border: none;
+          /* Remove border */
+          background-color: rgb(0, 217, 255);
+          cursor: pointer;
+          /*add a cursor when hover on a clickable link*/
+          padding: 6px;
+          font-size: 13px;
+          border-radius: 8px;
+          font-weight: bold;
+      }

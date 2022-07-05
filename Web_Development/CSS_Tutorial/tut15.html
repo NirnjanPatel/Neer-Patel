@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element selector */
+        p {
+            color: rgb(255, 3, 3);
+        }
+
+        /* ID selector */
+        #select {
+            color: green;
+        }
+
+        /* class selector */
+        .bgRED {
+            color: aqua;
+        }
+
+        /* Multiple class selector */
+        .bgGREEN {
+            background-color: rgb(158, 88, 224);
+            color: yellow;
+        }
+
+        /* < !-- Grouping Selectors--> */
+        footer,
+        span {
+            background-color: aquamarine;
+            color: blue;
+        }
+
+        b {
+            color: darkblue;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>CSS Selectors</h3>
+    <p>THis is PAragraph</p>
+
+    <p id="select">THis is Selectors PAragraph</p>
+    <!--ID-->
+
+    <p id="select2" class="bgRED ">THis is Selectors PAragraph</p>
+    <!--SIngle class-->
+
+    <p>THis is PAragraph</p>
+    <!--Multiple classes-->
+
+    <p id="select2" class="bgRED bgGREEN">THis is Selectors PAragraph</p>
+    <!-- Grouping Selectors -->
+    <span>
+        This is span
+    </span><br>
+
+    <footer>
+        This is Footer
+    </footer><br>
+
+    <b>This is Bold1 and important </b><br>
+    <b style="border: 2px solid red ; ">This is Bold2 and important </b>
+
+</body>
+
+</html>

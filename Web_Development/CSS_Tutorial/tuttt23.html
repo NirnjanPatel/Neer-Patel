@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./tutt233.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Navigation Menu </title>
+    <style>
+        .navBar {
+            background-color: rgb(4, 76, 154);
+            border-radius: 15px;
+
+        }
+
+        .navbar,
+        ul {
+            overflow: auto;
+        }
+
+        .navBar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        }
+
+        .navBar li a {
+            margin-left: 29px;
+            padding: 1px 1px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 2px black;
+        }
+
+        .navBar li a:hover {
+            background-color: rgb(28, 0, 153);
+            cursor: pointer;
+            color: yellow;
+        }
+
+        .search {
+            float: right;
+            color: rgb(68, 195, 237);
+        }
+
+        .navBar input {
+            border: 1px solid black;
+            border-radius: 8px;
+            margin-top: 13px;
+            margin-right: 15px;
+        }
+
+        .navBar input {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navBar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#"> Services</a></li>
+                <li><a href="https://www.w3schools.com/default.asp">Contact us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder=" Search from here">
+                </div>
+            </ul>
+
+        </nav>
+    </header>
+    <div class="container" id="cont1">
+        <h3>Styling links and buttons</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius odio eaque atque unde aperiam est sint deleniti
+            quae non, repellat earum tempore iste sequi error natus deserunt quam. Ut quas, quibusdam numquam deserunt
+            excepturi, veniam aliquam in praesentium iusto enim quos labore esse cupiditate iste, a consequatur harum
+            voluptatibus porro cumque soluta! Iure quam quos excepturi dolorum facere illum alias? Itaque repellat
+            voluptatem culpa a. Assumenda delectus dicta eum odit accusamus sed error repellendus quisquam doloremque
+            et?</p>
+        <a class="btn" href="https://www.facebook.com/login/">Read more</a>
+        <button class="btn" type="button">Click here</button>
+        <!--Don't know how to add a link on a button -->
+    </div>
+
+</body>
+
+</html>

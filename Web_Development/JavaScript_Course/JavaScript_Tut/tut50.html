@@ -1,0 +1,73 @@
+<html>
+<head>
+    <!-- 
+        indexOf(), lastIndexOf(), slice(), replace(), toUpperCase(), toLowerCase(),
+        concat(), trim(), charAt()
+     -->
+    <title>String Functions</title>
+    <script>
+
+        var str = "This is a string";
+        console.log(str);
+
+        // To get position of is any string
+        var position = str.indexOf('is');
+        console.log("index of is = " + position);
+
+        // To get position of last string
+        position = str.lastIndexOf('h'); // Here h is located at second place on string
+        console.log(position);
+
+        // slice function to get substring from a string
+        var substr = str.slice(0, 4);
+        console.log(substr);
+
+        var substr1 = str.slice(5, 7);
+        console.log(substr1);
+        substr1 = str.slice(8, 9);
+        console.log(substr1);
+
+        substr1 = str.slice(10, 16);
+        console.log(substr1);
+
+        // To replace an string
+        var replaced = str.replace('This', 'Niranjan');
+        console.log(str);
+        console.log(replaced);
+
+        // To change in lower case to upper case and upper case 
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+        console.log(str.toUpperCase());
+
+        // To concate (add) two strings 
+        var newString = 'THis isnt string';
+        console.log(newString);
+
+        newString = str.concat(newString); // as in Variable type or...
+        console.log("\n\n", newString);
+        newString = str.concat();
+
+        // as in string type or...
+        var newString1 = str.concat(' This is another new string');
+        console.log(newString1);
+
+        // To remove all white spaces from string
+        var strWithWS = "String With           White             Spaces"
+        console.log(strWithWS);
+        console.log(strWithWS.trim());
+
+        // To get character of a string by position 
+        var char2 = str.charAt(2);
+        console.log(char2)
+        var char2 = str.charAt(10);
+        console.log(char2)
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

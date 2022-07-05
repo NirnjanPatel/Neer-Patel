@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is date and time tutorial</title>
+    <style>
+       #body{
+            color: rgb(3, 19, 194);
+            border: 3px solid black;
+            border-radius:15px;
+            margin-left: 300px;
+            margin-right: 700px;
+            padding: 20px;
+        }
+#container{
+    background-color: burlywood;
+}
+h3{
+    background-color: rgb(235, 216, 177);
+}
+    </style>
+</head>
+<body >
+<div id="body">
+    <h3>This is date and time tutorial</h3>
+    <div id="container">
+     <span id="time"></span>
+    </div>
+</div>
+
+    <script>
+        console.log("This is date and time tutorial");
+        // let dt = new Date(); // here new is used to make object and Date is an object
+        // console.log(dt);
+
+    var today = new Date();
+    var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();  
+    // var time = today.getHours() + ':' + getMinutes()  ;
+    // console.log(time);
+    // Unique Technique
+    var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    console.log(today.toLocaleDateString("hi-IN", options)); 
+    console.log(today.toLocaleTimeString("hi-IN",options));
+
+    var datestring = ("0" + today.getDate()).slice(-2) + "-" + ("0" + (today.getMonth() + 1)).slice(-2) + "-" +
+            today.getFullYear() + " " + ("0" + today.getHours()).slice(-2) + ":" + ("0" + today.getMinutes()).slice(-2);
+    
+        console.log("datestring", datestring); 
+
+    console.log(date); 
+    console.log(today); 
+console.log(today.getFullYear());
+
+// let newDate = new Date(year,month,date,hours,minutes,seconds,mili seconds);
+let newDate = new Date();
+console.log(newDate);
+
+let yr = newDate.getFullYear();
+    console.log(yr);
+
+    let mnt = newDate.getMonth() + 1;
+    console.log(mnt);
+
+    let day = newDate.getDay();
+    console.log(day);
+
+    let hours = newDate.getHours();
+    console.log(hours);
+
+    let mnts = newDate.getMinutes();
+    console.log();
+
+    let scnd = newDate.getSeconds();
+    console.log();
+console.log("Todays Date : " + yr + '/' + mnt + '/' + day);
+    console.log("Time : " + hours + ':' + mnts + ':' + scnd);
+
+    // UTC Time Zone..
+
+    newDate.setDate(10);
+    console.log(newDate);
+
+    console.log(Date.now());// print live time
+    newDate.setMinutes(10);
+    console.log(newDate);
+
+    setInterval(updateTime,1000);
+    function updateTime(){
+    time.innerHTML = new Date();
+}
+    </script>
+</body>
+</html>

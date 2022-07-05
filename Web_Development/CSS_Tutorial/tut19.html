@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height, width, borders and backgrounds</title>
+    <style>
+#firstPara{
+    background-color:  rgb(255, 98, 0) ;
+    height:80px;                     /* height of bg color*/
+    width: 900px;                    /* choudayii of bg color*/
+    border-style:solid;              /*solid is neccesary to write */
+    border-width: 3px;               /* to set border motaayi*/
+    border-radius: 11px;             /* for curve border*/
+    border-top: 6px solid rgb(255, 0, 0); 
+    border-bottom: 6px solid rgb(2, 136, 185);
+    border-left: 6px solid rgb(0, 238, 0);
+    border-right: 6px solid rgb(0, 0, 0);
+    font-size:xx-large;
+    background-color:  rgb(235, 119, 46) ;
+
+}
+#secondPara{
+    background-color: rgb(243, 242, 237);
+    width: 900px;
+    height: 80px;
+    border: solid rgb(20,33,298);
+    border-radius: 11px;  
+    border-top: 6px solid rgb(255, 234, 0); 
+    border-bottom: 6px solid rgb(37, 249, 0);
+    border-left: 6px solid rgb(0, 204, 255);
+    border-right: 6px solid rgb(255, 0, 217);
+    font-size: xx-large;
+}
+#thirdPara{
+    background-color: rgb(10, 151, 0);
+    width: 900px;
+    height: 80px;
+    border: solid rgb(20,33,298);
+    border-radius: 11px;  
+    border-top: 6px solid rgb(255, 234, 0); 
+    border-bottom: 6px solid rgb(37, 249, 0);
+    border-left: 6px solid rgb(0, 204, 255);
+    border-right: 6px solid rgb(255, 0, 217);
+    font-size: xx-large;
+    /* is not working */
+}
+#fourthPara{
+color: rgb(255, 255, 54);
+text-align: left;
+height: 300px;
+width: 500px;
+background-image: url('https://cdn.pixabay.com/photo/2019/10/15/20/10/flag-4552833_960_720.jpg');
+border : 6px solid rgb(255, 0, 0);
+border-radius: 15px;
+padding: 25%; /* to set image with 10% cut from device width and height(aspect ratio)*/
+margin: 5%;  /* to set image with 10% cut from image width and height(aspect ratio)*/
+
+/* All functionalities are used to repeat image on background at different places*/
+/* background-repeat: repeat-x; */
+/* background-repeat: repeat-y; /* for repeat img in a row */
+/* background-repeat: repeat-x; /* for repeat img in a column */
+background-repeat: no-repeat; /* for no repeat img in row and column */
+/* background-repeat: repeat; /* for repeat img in row and column */
+
+/* All functionalities are used to set image on background at different places*/
+background-position: center center ;
+/* background-position: center left ; */ 
+/* background-position: top left ; */
+/* background-position: top right ; */
+
+}
+    </style>
+</head>
+
+<body>
+    <h1>Height, width, borders and backgrounds....!!!!!</h1>
+    <h2>This is 2nd heading...!!!!</h2>
+    <p id="firstPara">This is first paragraph of 1st heading....!!!</p>
+
+    <!-- <h2>This is 2nd heading...!!!!</h2> -->
+    <p id="secondPara">This is second paragraph of 1st heading....!!!</p>
+    
+    <!-- <h2>This is 3nd heading...!!!!</h2> -->
+        <p id="thirdPara">This is third paragraph of 1st heading....!!!</p>
+
+    <!-- <h2>This is 4th heading...!!!!</h2> -->
+        <p id="fourthPara" class="bgRED" >This is fourth paragraph of 1st heading....!!!</p>
+        <p class="bgRED">Where we will learn that how we can modify an image....!!!!</p>
+</body>
+</html>

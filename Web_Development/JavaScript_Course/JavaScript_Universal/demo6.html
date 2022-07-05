@@ -1,0 +1,40 @@
+<html>
+ <head>
+   <title></title>
+   <script>
+     function show()  //without return value without para
+     {
+       document.write("<h1>Show Called....</h1>");
+     }
+     function display(x) //without return value with para
+     {
+       document.write("<h1>Display Called.."+x+"</h1>");
+     }
+     function add(x,y) //with return value with para
+     {
+         var z = x+ y;
+       //return x+y;
+        return z;
+     }
+     function fact() //with return value without para
+     {
+        var num = 5;
+        var f = 1;
+        for(i=1;i<=num;i++)
+        {
+          f = f * i;
+        }
+        return f;
+     }
+     show();
+     display(10);
+     res = add(10,20);
+     document.write("<h1>Add is : "+res+"</h1>");
+     result = fact();
+     document.write("<h1>Factorial is : "+result+"</h1>");
+   </script>
+ </head>
+ <body>
+ 
+ </body>
+</html>

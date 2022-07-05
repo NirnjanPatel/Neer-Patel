@@ -1,0 +1,29 @@
+-> WAP to get ASCII value of following keyboard keys
+
+* space
+* tab
+* insert
+* enter
+
+-> Predict & Check result
+
+case 1 : a=100 , b=200.67
+a+b
+a-b
+
+case 2 : a=100 , b=true
+a+b
+a-b
+
+case 3 : a=3 , b="Universal"
+a+b
+a*b
+
+case 4 : a=true , b=false
+a+b
+a*b
+
+case 5 : a="Uni" , b="Info"
+a+b
+a*b
+  

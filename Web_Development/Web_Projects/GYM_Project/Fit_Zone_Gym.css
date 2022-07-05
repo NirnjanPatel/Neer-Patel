@@ -1,0 +1,23 @@
+.main_menu {
+    color: aqua;
+}
+
+.home_menu {
+    color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.container {
+    max-width: 1100px;
+}
+
+.align-item-center {
+    align-content: center !important;
+}
+#img{
+    background-image: href=./images/Gym_bg.jpg";
+}

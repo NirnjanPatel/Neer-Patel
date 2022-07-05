@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation's</title>
+    <script src="./pr2.js"></script>
+    <link rel="stylesheet" href="./pr2.css" </head>
+
+<body onload="init()">
+    <!-- onload attribute fires when an object has been loaded. onload is most often used within the
+    element to execute a script once a web page has completely loaded all content (including images, script files,
+    CSS files, etc.).-->
+    <center>
+        <div class="container">
+            <fieldset style="width:500px;">
+                <!-- <legend> -->
+                <h2>Sign Up Here</h2>
+                <!-- </legend> -->
+
+                First Name *
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="box"
+                    id="fname" type="text" placeholder="Enter First name" onblur="valid()">
+                <span id="err1"></span>
+
+
+                Last Name *
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="box"
+                    id="lname" type="text" placeholder="Enter Last name">
+                <span id="err2"></span>
+
+                Email Address * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="box" id="email"
+                    type="text" placeholder="Enter your email">
+                <span id="err3"></span>
+
+                <div id="pass">
+                    Enter password * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="box" id="password" type="text"
+                        placeholder="Enter password">
+                    <span id="err4"></span>
+                    Re-enter password * &nbsp;<input class="box" id="cpassword" type="text"
+                        placeholder="Re-enter password">
+                    <span id="err5"></span>
+
+
+                    Enter Mobile no. * &nbsp;&nbsp;&nbsp;<input class="box" id="mobile" type="text"
+                        placeholder="Enter Mobile no.">
+                    <span id="err6"></span>
+
+                    <input class="btn" type="button" value="Submit Form">
+
+                </div>
+            </fieldset>
+    </center>
+</body>
+
+</html>
