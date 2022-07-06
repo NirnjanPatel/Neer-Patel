@@ -1,0 +1,18 @@
+<script>
+//WAP to check a 3-digit number is armstrong or not
+
+var n=153;
+
+var d1=parseInt(n/100);
+var d2=parseInt(n/10)%10;
+var d3=n%10;
+
+var res=Math.pow(d1,3)+Math.pow(d2,3)+Math.pow(d3,3);
+
+if(n==res)
+ document.write("<h1>Number armstrong</h1>");
+else
+ document.write("<h1>Number is not armstrong</h1>"); 
+
+</script>
+

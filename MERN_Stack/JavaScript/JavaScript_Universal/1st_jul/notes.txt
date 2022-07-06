@@ -1,0 +1,149 @@
+Software:software is set of programs
+, program is set of instruction
+
+or
+
+a software is an interface(bridge) used to connect
+user with a service provider
+
+eg: facebook (web , mobile app)
+user : we are users
+service provider: is facebook
+
+classification of software:
+
+1) system software:this s/w are used to enable 
+machine hardware part to perform operation are
+system s/w
+
+eg: 
+
+i) operating system
+ii) drivers
+iii) all utility related s/w
+
+technology: c , c++
+
+2) Application software : this are user defined 
+software (those s/w which are generated as per users
+requirement)
+
+eg: 
+
+i) mobile app
+ii) android
+iii) add two numbers
+
+-> types of application software: application s/w
+are classified on the basis of platform on which
+they are implemented
+
+* Console based application
+
+->this application are implemented on OS
+->working is done on the basis of commands
+->non user freindly
+->fast in accessibility 
+
+tech: c/c++ , Python , NodeJS 
+
+eg:
+-> system console
+-> billing desk / ticket booking system  
+
+
+* Desktop based application
+
+->this application are implemented on OS
+->this are standalone applications
+->this are locally accissible application
+
+tech : JAVA , .NET , Python
+
+eg:
+-> antivirus
+-> ms office
+-> libre office 
+-> gaming application
+
+* Web based application
+
+->this are globally accessible application
+->accessed via web(www)
+->user freindly application
+
+tech : jsp , asp , django , flask , ROR , MEAN stack , MERN stack , PHP
+
+eg:
+-> facebook
+-> flipkart
+-> amazon
+-> university application 
+
+* Mobile based application
+
+-> this application are implemented on mobile OS
+-> mobile apps
+
+tech : Android , IOS , Hybrid apps(IONIC , 
+React Native)
+
+JS :-
+
+* Angular/Cli -> IONIC
+* ReactJS -> React Native
+
+eg:
+-> facebook app
+-> flipkart app
+
+----------------------------------------------------
+
+Application:
+
+-> console : 10%
+-> desktop : 20%
+-> web : 40%
+-> mobile : 30%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+ 
+
+
+ 
+ 
+

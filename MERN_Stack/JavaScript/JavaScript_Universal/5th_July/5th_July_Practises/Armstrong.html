@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Armstrong number</title>
+</head>
+
+<body>
+    <h2>Find Armstrong Number</h2>
+</body>
+<script>
+    var no = prompt("");
+    document.write(no);
+    var temp = no;
+    var sum = 0;
+    var ld;
+    while (no > 0) {
+        ld = no % 10; // 153
+        sum = sum + ld * ld * ld;
+        no = no / 10;
+    }
+    if (sum == temp) {
+        document.write("No is armstrong<br>");
+    }
+    else {
+        document.write("No is not armstrong<br>");
+    }
+</script>
+
+</html>

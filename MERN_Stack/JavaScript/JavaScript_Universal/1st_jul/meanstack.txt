@@ -1,0 +1,32 @@
+JS Stack : These are bunch of JS based technology used to implement full stack development.
+
+Full stack development :-It is web application development on every instance of web application like front end , back end & server side by taking base of single technology is full stack development.
+Those technology which is used to deploy full stack implementation are Full stack technology
+
+JS => MEAN Stack , MERN Stack
+
+NodeJS : Javascript based server side development environment , used to develop server side for web based applications
+
+ExpressJS : It is NodeJS based server side development framework , used to develop , server side for web based application by implementing framework approach
+
+MongoDB : It is application level permanent storage ,used to store data at application level. Apart from traditional databases this database is NoSQL based ,used to manage bulk amount of arbitarily data(unstructured data) in form of JSON(Javascript object notation)
+
+Angular CLI : It is Typescript based UI development framework ,used to UI for web based application by following all real world trending requirements. 
+
+or
+
+ReactJS : It is ES6 based UI development library ,used to UI for web based application by following all real world trending requirements. 
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Javascript : It is client side script used to apply dynamic changes on web page like validations , event programming , popups....
+
+or
+
+It is event based script , i.e JS will work when event will be applied on web page  
+
+
+
+
+
+ 
+
