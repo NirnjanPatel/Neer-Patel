@@ -11,7 +11,7 @@ private:
 public:
     void geDetails()
     {
-        get char();
+        getchar();
         cout << "Enter book Name = ";
         cin.getline(name, 744);
         cout << "Enter Price = ";
@@ -19,7 +19,7 @@ public:
     }
     void showDetails()
     {
-        cout << Name << "\t" << price << endl;
+        cout << name << "\t" << price << endl;
     }
 };
 int main()
